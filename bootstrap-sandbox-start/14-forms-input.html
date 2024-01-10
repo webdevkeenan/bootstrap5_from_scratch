@@ -13,17 +13,64 @@
 
       <!-- Basic Form -->
 
+      <form>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" class="form-control">
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control">
+        </div>
+        <div class="mb-3">
+          <input type="checkbox" class="form-control-input">
+          <label for="remember" class="form-check-label">Remember Me</label>
+        </div>
+        <input type="submit" value="Login" class="btn-primary">
+      </form>
+
       <br /><br />
 
       <!-- Other Fields -->
       <form>
         <!-- Select Fields -->
 
+      <div class="mb-3">
+        <select class="form-select">
+          <option>Best time to call</option>
+          <option value="morning">Morning</option>
+          <option value="afternoon">Afternoon</option>
+          <option value="evening">Evening</option>
+        </select>
+      </div>
         <!-- Textarea -->
+
+        <div class="mb-3">
+          <textarea class="form-control" placeholder="Message"></textarea>
+        </div>
 
         <!-- Switch -->
 
+        <div class="form-check form-switch">
+          <input type="checkbox" class="form-check-input">
+        </div>
+
         <!-- Inline Checkboxes -->
+
+        <div class="mb-3">
+          <div class="form-check form-check-inline">
+            <input type="checkbox" class="form-check-input" id="ch1" value="option1" />
+            <label for="ch1" class="form-check-label">1</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input type="checkbox" class="form-check-input" id="ch2" value="option2" />
+            <label for="ch2" class="form-check-label">2</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input type="checkbox" class="form-check-input" id="ch3" value="option3" />
+            <label for="ch3" class="form-check-label">3</label>
+          </div>
+        </div>
 
         <!-- Toggle Button -->
 
